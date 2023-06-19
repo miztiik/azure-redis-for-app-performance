@@ -10,6 +10,8 @@
 
 ## Results
 
+With connection reuse, native blob performance seems to be really good. Ofcourse, this is an scientific test, but a good way to play around with these services.
+
 ### Blob Storage Results
 
 Average Latency in Microseconds: 72705.66666666667
@@ -50,4 +52,3 @@ MIN Latency in Microseconds: 31514
 | 1               | 46,010           | 72,705.67        | 138,237          | 31,924    | 45,723.61 | 132,433   |
 | 2               | 42,995           | 59,180.96        | 106,380          | 34,435    | 54,349.27 | 101,037   |
 | 3               | 43,072           | 65,292.27        | 130,139          | 30,541    | 39,566.80 | 115,064   |
-
