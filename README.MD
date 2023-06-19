@@ -14,6 +14,7 @@ With connection reuse, native blob performance seems to be really good. Ofcourse
 
 ### Blob Storage Results
 
+```
 Average Latency in Microseconds: 72705.66666666667
 MAX Latency in Microseconds: 138237
 MIN Latency in Microseconds: 46010
@@ -25,9 +26,11 @@ MIN Latency in Microseconds: 42995
 Average Latency in Microseconds: 65292.27272727273
 MAX Latency in Microseconds: 130139
 MIN Latency in Microseconds: 43072
+```
 
 ### Redis Results
 
+```
 Average Latency in Microseconds: 45723.61224489796
 MAX Latency in Microseconds: 132433
 MIN Latency in Microseconds: 31924
@@ -44,6 +47,7 @@ Cache Misses: 253 253/1000
 Average Latency in Microseconds: 48433.47695390782
 MAX Latency in Microseconds: 497720
 MIN Latency in Microseconds: 31514
+```
 
 ![Miztiik Automation - Use Reds to improve Application Performance](images/miztiik_automation_azure_redis_cache_for_application_performance_002.png)
 
