@@ -3,8 +3,8 @@
 1. Set up a Redis server
 1. Setup a client(laptop) or cloud VM will do - Ensure you have python3, redis and redis-py installed. Also have az cli with a valid subscription and permissions to access blob storage.
 1. Run `azure_load_data_to_redis_and_blob.py` to load data to redis and blob storage
-1. Run `azure_query_redis.py` to query redis
-1. Run `azure_query_blob.py` to query blob storage
+1. Run `azure_query_redis.py` to query redis,  dont forget to change the connection string etc.,
+1. Run `azure_query_blob.py` to query blob storage, dont forget to change the sa, blob name etc.,
 
 ![Miztiik Automation - Use Reds to improve Application Performance](images/miztiik_automation_azure_redis_cache_for_application_performance_001.png)
 
